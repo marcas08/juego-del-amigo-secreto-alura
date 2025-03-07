@@ -43,7 +43,25 @@ function agregarNombre (){
     
     //Si ninguna condicion anterior se cumple se procede a agregar el nombre al arreglo.
         agregarNombre();
-
+        llenarLista ();
+        console.log (amigos)
+        
     }
 
 }
+
+//Muestra todos los nombres agregados hasta el momento al programa.
+function llenarLista () {
+    document.getElementById ('listaAmigos').innerText = "";
+    
+    for (let index = 0; index < amigos.length; index++) {
+        let li = document.createElement('li');
+            li.innerText = amigos[index];
+            listaAmigos.appendChild(li);
+
+    }
+
+
+
+}
+
