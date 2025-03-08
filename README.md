@@ -15,10 +15,14 @@ no permite numeros ni caracteres especiales y tampoco campos "vacios".
 <img width="345" alt="4" src="https://github.com/user-attachments/assets/612bd108-28dd-48d9-b78c-5b284f038cfe" />
 
 3- Repite el proceso hasta haber añadido todos los nombres a sortear.
+
+
 <img width="299" alt="5" src="https://github.com/user-attachments/assets/9be0e011-0ae1-479a-9d18-d6b2dec953c6" />
 
 4. AL tener todos los nombres en la lista presiona el botor sortear amigo.
 Se mostrara un nombre aleatorio y un mensaje para reiniciar el sorteo.
+
+
 <img width="257" alt="6" src="https://github.com/user-attachments/assets/195f2894-d7b3-42b5-9b1a-6dde59244aae" />
 
 
