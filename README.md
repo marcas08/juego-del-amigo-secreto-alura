@@ -4,9 +4,10 @@
 
 1- Escribe 1 nombre a la vez en la caja.
 <img src="https://imgur.com/dlGtQeK">
-
+<img width="319" alt="1" src="https://github.com/user-attachments/assets/5888d14c-6722-4810-9f33-58dd6edbea39" />
 
 2- Presiona el Boton Añadir, se mostrara el nombre ingresado 
+
 en la lista. Recuerda introducir solo letras ya que el programa
 no permite numeros ni caracteres especiales y tampoco campos "vacios".
 <img src="https://imgur.com/cZ2pI1R">
