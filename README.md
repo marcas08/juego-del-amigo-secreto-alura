@@ -10,8 +10,14 @@
 
 en la lista. Recuerda introducir solo letras ya que el programa
 no permite numeros ni caracteres especiales y tampoco campos "vacios".
+
+
 <img width="277" alt="2" src="https://github.com/user-attachments/assets/2f1a22b1-8573-4c3e-82e6-5baff1afaf49" />
+
+
 <img width="353" alt="3" src="https://github.com/user-attachments/assets/82377fa8-539c-4971-9740-9fb28996bcc6" />
+
+
 <img width="345" alt="4" src="https://github.com/user-attachments/assets/612bd108-28dd-48d9-b78c-5b284f038cfe" />
 
 3- Repite el proceso hasta haber añadido todos los nombres a sortear.
