@@ -15,6 +15,7 @@ function contieneNumero () {
 function agregarNombre (){
     amigos.push (minuscula);
     document.getElementById ('amigo').value = '';
+
     }
 
 //Valida que solo puedan ingresar palabras al programa.
@@ -44,7 +45,6 @@ function agregarNombre (){
     //Si ninguna condicion anterior se cumple se procede a agregar el nombre al arreglo.
         agregarNombre();
         llenarLista ();
-        console.log (amigos)
         
     }
 
@@ -58,10 +58,21 @@ function llenarLista () {
         let li = document.createElement('li');
             li.innerText = amigos[index];
             listaAmigos.appendChild(li);
-
     }
+    //Se habilita el boton Sortear Amigo
+    document.getElementById ("sorteo").removeAttribute ('disabled');
 
 
 
+}
+function sorteoAmigo () {
+    //Elige un numero indice aleatorio del arreglo amigos.
+    let ganador = Math.floor(Math.random()*amigos.length)
+    //Muestra el nombre guardado en el indice elegido aleatoriamente
+    document.getElementById ('resultado').innerHTML = (`El ganador de el sorteo es 
+        ${amigos [ganador]}`);
+    //Cambia el contenido de la lista por el mensaje.
+        document.getElementById ('listaAmigos').innerHTML = 'Actualiza la pagina para reiniciar.';
+    
 }
 
